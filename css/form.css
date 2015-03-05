@@ -1,0 +1,102 @@
+/* 
+    Created on : 6 Jan, 2015, 7:52:59 PM
+    Author     : Sourav Dash
+*/
+
+input[type="text"], input[type="number"], textarea {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 10pt;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: none;
+  -moz-border-radius: none;
+  -ms-border-radius: none;
+  -o-border-radius: none;
+  border-radius: 5px;
+  width: 170px;
+  height: 15px;
+}
+
+select{
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 10pt;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: none;
+  -moz-border-radius: none;
+  -ms-border-radius: none;
+  -o-border-radius: none;
+  border-radius: 5px;
+  width: 183px;
+  height: 29px;
+}
+input[type="text"]:focus,input[type="number"]:focus, textarea:focus,select:focus,input[type="checkbox"]:focus {
+  outline: none;
+}
+
+input[type="text"],input[type="number"], textarea,select,input[type="checkbox"] {
+  padding: 5px;
+  border: solid 1px gainsboro;
+  -webkit-transition: box-shadow 0.3s, border 0.3s;
+  -moz-transition: box-shadow 0.3s, border 0.3s;
+  -o-transition: box-shadow 0.3s, border 0.3s;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+input[type="text"]:focus,input[type="text"]:focus,input[type="number"]:focus, textarea:focus,select:focus,input[type="checkbox"]:focus {
+  border: solid 1px #707070;
+  -webkit-box-shadow: 0 0 5px 1px #969696;
+  -moz-box-shadow: 0 0 5px 1px #969696;
+  box-shadow: 0 0 5px 1px #969696;
+}
+
+::-webkit-input-placeholder {
+  color: #AB9BC3;
+  text-overflow: ellipsis;
+}
+
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #AB9BC3;
+   text-overflow: ellipsis;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #AB9BC3;
+   text-overflow: ellipsis;
+}
+
+:-ms-input-placeholder {  
+   color: #AB9BC3; 
+   text-overflow: ellipsis;
+}
+
+
+@media screen and (max-width: 960px) {
+    
+    input[type="text"], input[type="number"], textarea {
+        font-size: 10pt;
+        width: 100px;
+        height: 15px;
+    }
+
+    select{
+      font-size: 10pt;
+      width: 113px;
+      height: 29px;
+    }
+    
+    #a26{
+        width: 100px;
+    }
+    
+}

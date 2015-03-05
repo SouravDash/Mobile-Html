@@ -1,0 +1,129 @@
+            #qrt1{
+                margin-left: 10px;
+                margin-top: 5px;
+                background-color: #DDE6EE;
+                border: 3px groove #2D547F;
+            }
+            fieldset{
+                margin-top: 5px;
+                background-color: #DDE6EE;
+                border: 2px solid #6A93B0;
+                margin-bottom: 5px;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+            
+            legend{
+                font-size: 15pt;
+                margin-left: 400px;
+            }
+            
+            form{
+                margin-top: -15px;
+            }
+            
+            #table1, #table2, #table3{
+                margin-top: 5px;
+            }
+            
+            #table1 td{
+                padding-left: 8px;
+                padding-right: 8px;
+                padding-top: 4px;
+                padding-bottom: 4px;
+            }
+            
+            #table2 td{
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 4px;
+                padding-bottom: 4px;
+            }
+            
+            #a19,#a22{
+                margin-left: 58px;
+            }
+            
+            h2{
+                margin-left: 20px;
+                margin-bottom: 5px;
+                margin-top: 5px;
+                color: blue;
+                font-weight: 800;
+            }
+            
+            #foot{
+			width: 985px;
+			height: 110px;
+                        margin-left: 50px;
+            }
+
+		#foot div{
+			width: 180px;
+			height: 40px;
+			background-color: #B8B8B8;
+			float: left;
+			margin-left: 10px;
+			margin-top: 10px;
+			border-radius: 5px;
+			text-align: center;
+		}
+		#foot div p{
+			margin-top: 8px;
+			font-size: 20px;
+			color: #333333;
+		}
+
+		#foot div a{
+			text-decoration: none;
+		}
+                
+                #div1{
+                    margin-left: 30px;
+                }
+                
+                h2{
+                    margin-bottom: 25px;
+                }
+                
+                #request{
+                    margin-left: 104px;
+                    margin-top: -20px;
+                }
+
+                #label2{
+                    position: absolute;
+                    margin-left: 300px;
+                    margin-top: -25px;
+                }
+
+                #request2{
+                    position: absolute;
+                    margin-left: 376px;
+                    margin-top: -27px;
+                }
+
+                #label3{
+                    position: absolute;
+                    margin-left: 568px;
+                    margin-top: -25px;
+                }
+
+
+                #request3{
+                    position: absolute;
+                    margin-left: 625px;
+                    margin-top: -27px;
+                }
+
+                #label4{
+                    position: absolute;
+                    margin-left: 810px;
+                    margin-top: -25px;
+                }
+
+                #request4{
+                    position: absolute;
+                    margin-left: 850px;
+                    margin-top: -27px;
+                }

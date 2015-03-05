@@ -1,0 +1,161 @@
+body{
+	display: block;
+	width: auto;
+	background-color: #2F3030;
+}
+
+#container{
+	display: block;
+	position: absolute;
+	width: 30%;
+	background-color: #F2F2F2;
+	left: 35%;
+	right: 35%;
+	height: 70%;
+	top: 15%;
+	bottom: 15%;
+	border-radius: 5px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(28,25,28,1);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(28,25,28,1);
+	box-shadow: 10px 10px 5px 0px rgba(28,25,28,1);
+}
+
+#image{
+	width: 128px;
+	height: 128px;
+	background-image: url('../image/user.png');
+	position: relative;
+	left: 34%;
+	right: 32%;
+	top: 5%;
+}
+
+#text{
+	text-align: center;
+	position: relative;
+	top: 7%;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#login-form{
+	display: block;
+	height: 30%;
+	position: relative;
+	top: 15%;
+	width: 20%;
+	left: 10%;
+	right: 10%;
+}
+
+input{
+	display: block;
+	width: 400%;
+	bottom: 10%;
+	position: relative;
+	padding: 10%;
+}
+
+input[type="text"]{}
+
+input[type="text"]:focus{
+	outline: 1px solid green;
+}
+
+input[type="password"]:focus{
+	outline: 1px solid green;
+}
+
+#login-password{
+	top: -2%;
+}
+
+#login-submit{
+	top: 4%;
+	background-color: blue;
+	color: whitesmoke;
+	mask-image: url('../image/grit.png');
+	-webkit-mask-image: url('../image/grit.png');
+}
+
+#login-submit:hover {
+	background: #8f224a;
+	color: #fff;
+}
+
+#help{
+	position: relative;
+	top: 13%;
+}
+
+#login-check{
+	width: 16px;
+	height: 16px;
+	background-image: url('../image/view.png');
+	position: relative;
+	top: -20%;
+	left: 370%;
+	outline: none;
+    border: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+#login-error{
+	position: absolute;
+	width: 40%;
+	left: 30%;
+	right: 30%;
+	text-align: center;
+	top: 5%;
+	color: red;
+	font-family: 'Oswald', sans-serif;
+}
+
+#error-image{
+	position: absolute;
+	left: 38%;
+	top: 5.5%;
+}
+
+@media screen and (min-width: 320px) {
+    #image{
+    	background-image: url('../image/user320px.png');
+    	background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    #image{
+    	background-image: url('../image/user650px.png');
+    	background-repeat: no-repeat;
+    }
+    
+}
+
+#login-submit{
+	outline: none;
+	border: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+@media screen and (min-width: 920px) {
+    #image{
+    	background-image: url('../image/user.png');
+    	background-repeat: no-repeat;
+    	margin-left: -10px;
+    }
+    
+}
+
+@media screen and (min-width: 1000px) {
+    #image{
+    	background-image: url('../image/user.png');
+    	background-repeat: no-repeat;
+    	margin-left: 5px;
+    }
+    
+}

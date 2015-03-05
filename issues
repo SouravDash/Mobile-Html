@@ -1,0 +1,37 @@
+Header Height in some device 
+
+section height
+tree scrollbar
+modal window
+row 2 content height
+id="eimage1"
+style="position: absolute;left: 90%;"
+
+<h4>Student Information</h4>
+                    <fieldset>
+                        <legend>Personal Details</legend>
+                        <form id="form1">
+                            <div>
+                                <label for="FName">First Name *</label>
+                                <input type="text" id="a1" name="a1" value="<?php /*echo $array['first_name'];*/?>" />
+                            </div>
+                            <div>
+                                <label for="MName">Middle Name</label>
+                                <input type="text" id="a2" name="a2"  value="<?php /*echo $array['middle_name'];*/?>" />
+                            </div>
+                            <div>
+                                <label for="LName">Last Name</label>
+                                <input type="text" id="a3" name="a3" value="<?php /*echo $array['last_name'];*/?>" />
+                            </div>
+                            <div>
+                                <label for="Birth">Date of Birth *</label>
+                                <input type="text" id="a4" name="a4" value="<?php /*echo $array['date_of_birth'];*/?>" />
+                            </div>
+                            <div>
+                                <label for="Gender">Gender *</label>
+                                <input type="text" id="a5" name="a5"  value="<?php /*echo $array['gender'];*/?>" />
+                            </div>
+                        </form>
+                    </fieldset>
+                    </div>
+                </div>
